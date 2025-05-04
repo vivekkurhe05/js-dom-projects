@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Coin Toss</title>
+        <style>
+            
+            .coin {
+                font-size: 6em;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                text-align: center;
+                margin: auto;
+            }
+            .coin div{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: #eee;
+                border-radius: 50%;
+                line-height: 100px;
+                text-align: center;
+                color: white;
+            }
+            .coin div:first-child {
+                background-color: red;
+            }
+            .coin div:last-child {
+                background-color: blue;
+            }
+            .btn {
+                width: 100%;
+                display: inline-block;
+                margin: 5px;
+                font-size: 1.5em;
+                color: white;
+                background-color: black;
+            }
+            .score {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 1.5em;
+                text-align: center;
+            }
+            .message {
+                font-size: 1em;
+                background: #ddd;
+                text-align: center;
+                padding: 10px;
+            }
+            .main {
+                margin: auto;
+                width: 300px;
+                background-color: #eee;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main"></div>
+        <script src="prac-coin.js"></script>
+    </body>
+</html>
